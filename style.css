@@ -157,8 +157,8 @@ footer div a {
 }
 
 .trainer-container {
-  position: relative;
-  display: inline-block;
+  /*     position: relative; 
+      display: inline-block; */
   margin-top: 15px;
   margin-bottom: 15px;
   align-items: center;
@@ -301,12 +301,21 @@ footer div a {
   text-decoration: underline;
 }
 
-/* @media(max-width:768px){
-    .row{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-    }
-} */
+.Ejercicio_Rutina {
+  list-style: circle;
+}
+
+.ATPRutina {
+  color: orangered;
+}
+
+.instrucciones {
+  color: #28a745;
+}
+
+.rutina_img {
+  height: 100%;
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
